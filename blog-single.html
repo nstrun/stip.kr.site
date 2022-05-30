@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Агентство недвижимости</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no"/>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<!-- Stylesheet  -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<!-- Jquery Start  -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- Rating Star  -->
+<script type="text/javascript" src="js/jquery.rateit.js"></script>
+<!-- Navigation  -->
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/jquery.responsivemenu.js"></script>
+<script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+<!-- Hover Effect  -->
+<script type="text/javascript" src="js/jquery.hoverIntent.minified.js"></script>
+<!-- Easing  -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<!-- Camera Slider  -->
+<script type="text/javascript" src="js/camera.js"></script>
+<!-- Accordion  -->
+<script type="text/javascript" src="js/accordion.js"></script>
+<!-- Tabs  -->
+<script type="text/javascript" src="js/tabs.js"></script>
+<!-- Carsoule  -->
+<script type="text/javascript" src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<!-- A gallery optimized for touch devices  -->
+<script type="text/javascript" src="js/touchTouch.jquery.js"></script>
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<!-- forms  -->
+<script type="text/javascript" src="js/forms.js"></script>
+<!-- Portfolio -->
+<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+<script type="text/javascript" src="js/filter_setting.js"></script>
+<!-- Custom  -->
+<script type="text/javascript" src="js/custom.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+  	$(window).load( function(){	
+	  jQuery('.magnifier').touchTouch();								
+    });
+</script>
+<!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+   	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<!--============================== Header ================================-->
+<header class="pad0">
+  <div class="container_12">
+    <!-- Logo  -->
+    <div class="grid_12">
+      <h1><a href="index.html"></a> </h1>
+      <!-- Navigation  -->
+      <div class="menu_block">
+        <nav>
+          <ul class="sf-menu">
+            <li><a href="index.html">Меню</a> </li>
+            <li class="current"><a href="#">Свойства</a>
+              <ul>
+                <li><a href="index.html">О компании</a></li>
+                <li><a href="search.html">Поиск</a></li>
+                <li><a href="rent.html">Аренда</a></li>
+                <li><a href="project-details.html">Подробности</a></li>
+                <li><a href="project-details.html">Подробности</a></li>
+                <li><a href="#">Свойства</a>
+                  <ul>
+                    <li><a href="all-2column.html">Стиль</a></li>
+                  </ul>
+                </li>
+                <li><a href="agent.html">Агенты</a></li>
+                <li><a href="testimonials.html">Рекомендации</a></li>
+                <li><a href="#">О компании</a>
+                  <ul>
+                    <li><a href="portfolio2.html">1</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Блог</a>
+              <ul>
+                <li><a href="blog-single.html">Блог1</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- top image  -->
+<div class="row-1">
+  <div class="container_12">
+    <!-- Search  -->
+    <div class="grid_12">
+      <h2>Агентство Недвижимости</h2>
+    </div>
+  </div>
+</div>
+<!-- top search  -->
+<div class="row-2">
+  <div class="container_12">
+    <!-- Search  -->
+    <div class="grid_12">
+      <form id="form5" class="form1-1 form2" method="post">
+        <div class="fix-w">
+          <label class="text"> <span>Город</span> </label>
+          <label class="input">
+          <input type="text">
+          </label>
+        </div>
+        <div class="fix-w">
+          <label class="text"> <span>Индекс</span> </label>
+          <label class="input">
+          <input type="text">
+          </label>
+        </div>
+        <div class="fix-w">
+          <label class="text"> <span>Максимальная цена</span> </label>
+          <label class="select">
+          <select name="select">
+            <option value="">Нет</option>
+            <option value="">1000000 рублей</option>
+            <option value="">2000000 рублей</option>
+            <option value="">3000000 рублей</option>
+          </select>
+          </label>
+        </div>
+        <div class="fix-w">
+          <label class="text"> <span>Комнаты</span> </label>
+          <label class="select">
+          <select name="select">
+            <option value="">Нет</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+          </select>
+          </label>
+        </div>
+        <div class="form-button"><a onClick="document.getElementById('form4').submit()" href="#" class="button-red">Поиск</a></div>
+      </form>
+    </div>
+  </div>
+</div>
+<!--==============================content================================-->
+<div class="main_bg">
+  <section class="content">
+    <div class="container_12">
+      <div class="wrapper">
+        <article class="grid_8">
+          <div class="post-border-right">
+            <article class="post-holder box1 b3">
+              <div>
+                <div class="date"> <span class="day">14</span> <span class="month">Май</span> </div>
+                <h2 class="entry-title fleft"><a href="#"></a></h2>
+                <div class="post-meta">
+                  <div class="fleft"><i class="icon-user"></i> <a href="#"></a> <i class="icon-eye-open"></i> <a href="#">15 Просмотры</a> <i class="icon-comments-alt"></i> <a href="#">22 Комментарии</a> <i class="icon-tag"></i> <a href="#">собственность</a> <a href="#"></a> <a href="#">день открытых дверей</a> </div>
+                </div>
+                <!--.post-meta-->
+              </div>
+              <figure class="ident-bot-2"><a class="img_inner" href="#"><img src="images/blog/post1.jpg"></a></figure>
+              <p class="ident-bot-2"> </p>
+              <p class="ident-bot-2"></p>
+              <p class="ident-bot-2"> </p>
+              <p class="ident-bot-2"></p>
+              <div class="addthis_toolbox addthis_pill_combo"> <a class="addthis_button_google_plusone" g:plusone:size="medium"></a> <a class="addthis_button_tweet" tw:count="horizontal"></a> <a class="addthis_button_facebook_like"></a> </div>
+            </article>
+            <div class="clear"></div>
+            <!--COMMENTS-->
+            <article class="comment-box">
+              <h3 class="ident-top-2">22 Комментарии</h3>
+              <div class="parent">
+                <div class="img-border-bg ident-right-2 fleft"><img class="img-border" src="images/mark.jpg" alt="" title="" /></div>
+                <h2><a href="#">Сергей</a></h2>
+                <span>1 Мая 2022 16:02</span> <a href="#" class="reply"></a>
+                <p>Спасибо!</p>
+              </div>
+              <div class="parent child">
+                <div class="img-border-bg ident-right-2 fleft"><img class="img-border" src="images/jade.jpg" alt="" title="" /></div>
+                <div class="parent-sub-img"></div>
+                <h2><a href="#">Дарья</a></h2>
+                <span>20 Апреля 2022 12:00</span> <a href="#" class="reply"></a>
+                <p>Все хорошо</p>
+              </div>
+              <div class="parent subchild">
+                <div class="img-border-bg ident-right-2 fleft"><img class="img-border" src="images/mark.jpg" alt="" title="" /></div>
+                <div class="parent-sub-img"></div>
+                <h2><a href="#">Ольга</a></h2>
+                <span>11 Марта 2022 11:00</span>
+                <p>Очень хорошая организация! Буду обращаться к вам.</p>
+              </div>
+              <div class="parent">
+                <div class="img-border-bg ident-right-2 fleft"><img class="img-border" src="images/jade.jpg" alt="" title="" /></div>
+                <h2><a href="#">Катя</a></h2>
+                <span>2 Марта 2022 09:00</span> <a href="#" class="reply"></a>
+                <p>Спасибо за помощь!</p>
+              </div>
+            </article>
+            <div class="clear"></div>
+            <!-- Form -->
+            <article>
+              <div class="grid_6">
+                <h3 class="ident-top-2">Оставить отзыв</h3>
+                <!-- contact form -->
+                <form id="form1">
+                  <div class="success_wrapper">
+                    <div class="success">Отправлена контактная форма!<br>
+                      <strong>Мы скоро свяжемся с вами.</strong> </div>
+                  </div>
+                  <fieldset>
+                  <label class="name">
+                  <input type="text" value="Имя:">
+                  <br class="clear">
+                  <span class="error error-empty">*Это недопустимое имя.</span><span class="empty error-empty">*Это поле обязательно для заполнения.</span> </label>
+                  <label class="email">
+                  <input type="text" value="E-mail:">
+                  <br class="clear">
+                  <span class="error error-empty">*Это неверный адрес электронной почты.</span><span class="empty error-empty">*Это поле обязательно для заполнения.</span> </label>
+                  <label class="phone">
+                  <input type="tel" value="Телефон:">
+                  <br class="clear">
+                  <span class="error error-empty">*Это недействительный номер телефона.</span><span class="empty error-empty">*Это поле обязательно для заполнения.</span> </label>
+                  <label class="message">
+                  <textarea>Сообщение:</textarea>
+                  <br class="clear">
+                  <span class="error">*Сообщение слишком короткое.</span> <span class="empty">*Это поле обязательно для заполнения.</span> </label>
+                  <div class="clear"></div>
+                  <div class="btns"><a data-type="reset" class="button-red p1">удалить</a><a data-type="submit" class="button-green p1">отправить</a>
+                    <div class="clear"></div>
+                  </div>
+                  </fieldset>
+                </form>
+                <!-- end contact form -->
+              </div>
+            </article>
+          </div>
+        </article>
+        <article class="grid_4 fright">
+          <h2 class="title-effect">категории</h2>
+          <div class="box b3">
+            <ul class="list">
+              <li><a href="#">Все права защищены</a></li>
+              <li><a href="#">Аренда</a></li>
+              <li><a href="#">Покупка</a></li>
+            </ul>
+          </div>
+          <h2 class="title-effect">архив</h2>
+          <div class="box b3">
+            <ul class="list">
+              <li><a href="#">Февраль - 2022</a></li>
+              <li><a href="#">Март - 2022</a></li>
+              <li><a href="#">Апрель - 2022</a></li>
+              <li><a href="#">May - 2022</a></li>
+            </ul>
+          </div>
+          <div id="accordion"> <a class="selected"> <span></span></a>
+            <div class="accordion-wrapper">
+              <p>  </p>
+            </div>
+            <a><span></span></a>
+            <div class="accordion-wrapper" style="display: none;">
+              <p>  </p>
+            </div>
+            <a><span></span></a>
+            <div class="accordion-wrapper" style="display: none;">
+              <p>  </p>
+            </div>
+            <a><span></span></a>
+            <div class="accordion-wrapper" style="display: none;">
+              <p></p>
+            </div>
+          </div>
+          <h2>Теги</h2>
+          <div class="wrapper tags"> <a href="#">Данные</a> <a href="#">Компания</a> <a href="#">Свойства</a> <a href="#">Пресса</a> <a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</div>
+<!--==============================footer=================================-->
+<footer class="main-wrapper main-wrapper-shadow">
+  <div class="footer-1">
+    <div class="container_12">
+      <div class="wrapper">
+        <!-- Text Widget & SOCIABLE -->
+        <div class="grid_3">
+          <!--Text Widget-->
+          <h2>Дополнительно</h2>
+          <p> </p>
+          <address>
+          <dl>
+            <dd><span>Телефон:</span> +7 937 456 3122</dd>
+            <dd><span>E-mail:</span> <a href="#" class="link-1">ang.5@list.com</a></dd>
+          </dl>
+          </address>
+        </div>
+        <!-- Links -->
+        <div class="grid_3">
+          <!--Text Widget-->
+          <h2>Типы недвижимости</h2>
+          <ul class="list1">
+            <li><a href="#">Дом</a></li>
+            <li><a href="#">Квартира</a></li>
+            <li><a href="#">Недвижимость</a></li>
+            <li><a href="#">Другое</a></li>
+          </ul>
+        </div>
+  <div class="footer-2">
+    <div class="container_12">
+      <div class="wrapper">
+        <div class="grid_12">
+          <div class="policy">По вопросам обращаться по номеру телефона <a href="#">Политика приватности</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
